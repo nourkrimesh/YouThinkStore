@@ -1,0 +1,21 @@
+/* Navbar */
+.navbar-nav a {
+  font-size: 18px;
+}
+
+.g-text-shadow-black {
+  text-shadow: 1px 1px 10px #000000aa;
+}
+
+.g-selectable {
+  cursor: pointer;
+}
+
+.g-expandable {
+  transition: all .2s;
+}
+
+.g-expandable:hover {
+  transform: scale(1.07);
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
